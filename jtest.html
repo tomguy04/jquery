@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="jtest.css">
+    <script src="http://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+    <script src="methods.js"></script>
+</head>
+    <body>
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <!-- listen on this button with this id-->
+                <button id="clickbutton">click</button>
+            </div>
+            <div class="methodsection">
+                <h1>Click</h1>
+                <p id="redtexthere">Click to make this para red</p>
+            </div>    
+        </div>
+        <div class="jquerysection">
+            <div class="methodbutton">
+                 <!-- id the button -->
+                 <button id="hide">hide</button>
+            </div>
+            <div class="methodsection">
+                <!-- name of the method -->
+                <h1>hide</h1>
+                <!-- fill in the p id -->
+                <p id="hidep">This will be hidden</p>
+            </div>    
+        </div>
+
+        <div class="jquerysection">
+                <div class="methodbutton">
+                     <!-- id the button -->
+                     <button id="show">click to show my name</button>
+                </div>
+                <div class="methodsection">
+                    <!-- name of the method -->
+                    <h1>show</h1>
+                    <!-- fill in the p id -->
+                    <p id="showp" style="display:none">My name is Glen!</p>
+                </div>    
+            </div>
+
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <!-- id the button -->
+                <button id="togglenoparams">click</button>
+            </div>
+            <div class="methodsection">
+                <!-- name of the method -->
+                <h1>toggle no params</h1>
+                <!-- fill in the p id -->
+                <p id="togglenpp">Click to make this toggle</p>
+            </div>    
+        </div>
+
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <!-- id the button -->
+                <button id="toggleparams">click</button>
+            </div>
+            <div class="methodsection">
+                <!-- name of the method -->
+                <h1>toggle params</h1>
+                <!-- fill in the p id -->
+                <p id="togglep">Click to make this toggle slow</p>
+            </div>    
+        </div>
+
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <!-- id the button -->
+                <button id="toggleparams2">click</button>
+            </div>
+            <div class="methodsection">
+                <!-- name of the method -->
+                <h1>toggle2params with an alert function</h1>
+                <!-- fill in the p id -->
+                <p id="toggle2paramsalert">Click to alert</p>
+            </div>    
+        </div>
+
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <!-- id the button -->
+                <button id="slidedown">slidedown</button>
+            </div>
+            <div class="methodsection">
+                <!-- name of the method -->
+                <h1>slidedown</h1>
+                <!-- fill in the p id -->
+                <p id="slidep" style="display:none">Wooohoo slippy!</p>
+            </div>    
+        </div>
+
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <!-- id the button -->
+                <button id="slideup">slideup</button>
+            </div>
+            <div class="methodsection">
+                <!-- name of the method -->
+                <h1>slidedown</h1>
+                <!-- fill in the p id -->
+                <p id="slideupp">Wooohoo slippy UP!</p>
+            </div>    
+        </div>
+
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <!-- id the button -->
+                <button id="slidetoggle">slidetoggle</button>
+            </div>
+            <div class="methodsection">
+                <!-- name of the method -->
+                <h1>slidetoggle</h1>
+                <!-- fill in the p id -->
+                <p id="slidetogglep">lets slide toggle this</p>
+            </div>    
+        </div>
+
+        
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <!-- id the button -->
+                <button id="fadein">fadein</button>
+            </div>
+            <div class="methodsection">
+                <!-- name of the method -->
+                <h1>fadein</h1>
+                <!-- fill in the p id -->
+                <p id="fadeinp" style="display:none">this was faded in</p>
+            </div>    
+        </div>
+
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <!-- id the button -->
+                <button id="fadeout">fadeOut</button>
+            </div>
+            <div class="methodsection">
+                <!-- name of the method -->
+                <h1>fadeOut</h1>
+                <!-- fill in the p id -->
+                <p id="fadeoutp">this will be faded out</p>
+            </div>    
+            </div>  
+            
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <button id="addClass">addClass</button>
+            </div>
+            <div class="methodsection">
+                <h1>addClass</h1>
+                <p id="addClassp">We are going to make yellow text on a red background</p>
+            </div>
+        </div>
+                
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <button id="before">before</button>
+            </div>
+            <div class="methodsection">
+                <h1>before</h1>
+                <p id="beforep">We are going to do add my name before this line.</p>
+            </div>
+        </div>
+
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <button id="after">after</button>
+            </div>
+            <div class="methodsection">
+                <h1>after</h1>
+                <p id="afterp">We are going to do add my last name after this line.</p>
+            </div>
+        </div>
+                    
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <button id="append">append</button>
+            </div>
+            <div class="methodsection">
+                <h1>append</h1>
+                <p id="appendp">We are going to append text to this...</p>
+            </div>
+        </div>
+            
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <button id="html">html</button>
+            </div>
+            <div class="methodsection">
+                <h1>html</h1>
+                <p id="htmlp">We are going to add some html</p>
+            </div>
+        </div>
+
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <button id="attr">attr</button>
+            </div>
+            <div class="methodsection">
+                <h1>attr</h1>
+                <p>We are going to make this image wider</p>
+                <img src="recycle.png" alt="nothere">
+            </div>
+        </div>
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <button id="value">Change the content of the input</button>
+            </div>
+            <div class="methodsection">
+                <h1>val</h1>
+                <input type="text" value="click a button">
+            </div>
+        </div>
+
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <button id="text">text</button>
+            </div>
+            <div class="methodsection">
+                <h1 id="texttest">text method -this h1 content will be copied.</h1>
+                <p id="textp"></p>
+            </div>
+        </div>
+
+        <div class="jquerysection">
+            <div class="methodbutton">
+                <button id="dataset">data</button>
+                <button id="dataget">data(get)</button>
+            </div>
+            <div class="methodsection">
+                <h1>data show the greeting in the p tag below</h1>
+                <p id="datap"></p>
+               
+            </div>
+        </div>
+            
+
+    </body>
+</html>

@@ -1,0 +1,36 @@
+.jquerysection{
+    display: block;
+    border-bottom: 2px solid black;
+    margin:30px;
+}
+
+.methodbutton{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+button{
+    margin-bottom: 30px;
+}
+
+.methodtitle{
+ 
+    margin-bottom:10px;
+   
+}
+
+.methodsection{
+    display:inline-block;
+    vertical-align: top;
+}
+
+#methoddescription{
+    display:block;
+    margin-bottom:10px;
+    
+}
+
+.addedClass{
+    color:yellow;
+    background-color: red;
+}
